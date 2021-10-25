@@ -1,0 +1,128 @@
+body{background-color: #f9fafd; font-family: 'Inter', sans-serif; font-size: 18px; }
+
+a{text-decoration: none; color: #171924}
+
+/* ! Header */
+.header{
+  background-color: #ffffff;
+  border-bottom: 2px solid #eff2f5;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  top: 0px;
+  padding: 5px 0px;
+  z-index: 2;
+}
+
+.logo{margin-left: 12vw;}
+
+#header_title{margin-left: 4vw; font-weight: 500;}
+
+.language_button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8FAFD;
+  color: #171924;
+  height: 40px;
+  width: 130px;
+  margin-left: 79vw;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* ! Presentation */
+.presentation {
+  width: 76vw;
+  margin-top: 130px;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.presentation__content{
+  position: relative;
+  text-align: center;
+  color: #F9FAFD;
+}
+
+.presentation_text{
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  width: 600px;
+}
+
+.presentation_text h1{
+  text-align: left;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.presentation_text h2{
+  margin-left: 0.5vh;
+  margin-top: 35px;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.presentation__content img{
+  width: 100%;
+  height: 100%;
+}
+
+#recipes{
+  text-align: center;
+  font-size: 58px;
+  font-weight: 600;
+  margin: 70px 0px 120px 0px;
+}
+
+.course{
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 80px 12vw 0 12vw;
+}
+
+/* ! Cards List */
+.scrollmenu{
+  overflow: auto;
+  white-space: nowrap;
+  margin: 10px 12vw 0 12vw;
+}
+
+.scrollmenu .card{
+  display:inline-block;
+  box-shadow: 0px 2px 4px 0px #EAEAEF;
+  border-radius: 10px;
+  margin: 15px 30px 15px 0px;
+  background-color: #FEFFFF;
+}
+
+.card div{ vertical-align:middle; display: inline-block;}
+
+.card div h1{
+  white-space: normal;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #171924;
+  margin: 0px 8px 10px 20px;
+  height: 60px;
+  width: 200px;
+}
+
+.card div div{
+  border-radius: 5px;
+  background-color: #264BFF;
+  margin-left: 20px;
+  padding: 5px 18px;
+}
+
+.card div a{ font-size: 12px; font-weight: 400; color: #F9FAFD; vertical-align: middle;}
+
+.card div img{ vertical-align:middle; height: 140px; border-radius: 0px 10px 10px 0px;}
