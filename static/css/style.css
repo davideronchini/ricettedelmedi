@@ -49,22 +49,23 @@ a{text-decoration: none; color: #171924}
   color: #F9FAFD;
 }
 
-.presentation_text{
+.presentation__text{
   position: absolute;
   top: 25%;
   left: 8%;
-  width: 600px;
+  width: 500px;
 }
 
-.presentation_text h1{
+.presentation__text h1{
   text-align: left;
   font-size: 75px;
   font-weight: 600;
 }
 
-.presentation_text h2{
+.presentation__text h2{
   margin-left: 0.5vh;
   margin-top: 35px;
+  line-height: 45px;
   text-align: left;
   font-size: 36px;
   font-weight: 400;
